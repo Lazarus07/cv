@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <ul>
+        <li>Cell:<a href="tel:0764409983">0764409983</a></li>
+        <li>Email:<a href="mailto:jmuller0707@gmail.com">jmuller0707@gmail.com</a></li>
+        <li>No address. Sorry</li>
+    </ul>
+    <hr>
+
+    <form action="mailto:jmuller0707@gmail.com" method="post" enctype="text/plain" style="width:200px; height:600px; padding: 5px;">
+        <label for="">Name:</label>
+        <input type="text" name="yourName" required style="margin-bottom:7px; padding-right: 100px;"><br>
+
+        <label for="">Email Address:</label>
+        <input type="email" name="yourEmail" required style="margin-bottom:7px; padding-right: 100px;"><br>
+
+        <label for="">Phone Number:</label>
+        <input type="text" name="yourNumber" required style="margin-bottom:7px; padding-right: 100px;"><br>
+
+        <label for="">Enquiry type</label>
+        <select name="yourEnquiry" id="" style="margin-bottom:7px; padding-right: 140px;">
+            <option value="">Complaint</option>
+            <option value="">Compliment</option>
+            <option value="">Speak to a human</option>
+        </select><br>
+
+        <label for="">Your Message</label>
+        <textarea name="yourMessage" id="" cols="34" rows="10" style="margin-bottom:7px;"></textarea>
+
+        <input type="submit" style="margin-top:7px;">
+    </form>
+    <hr size="3px" noshade>
+</body>
+</html>
